@@ -10,7 +10,7 @@ import java.util.*;
 public class Interface extends JFrame {
 	ArrayList<Figura> figs = new ArrayList<Figura>();
 	
-	public int totalFiguras =0;
+	public int totalFiguras = 0;
 	Graphics g;
 	/*Texto dos campos*/
 	JTextField xc = new JTextField(10);
@@ -32,7 +32,7 @@ public class Interface extends JFrame {
 	//JLabel quantidades = new JLabel("Nenhuma figura criada");
 	JLabel informacoes = new JLabel("");
 	JLabel informacoes2 = new JLabel("");
-	JLabel informacoes3 = new JLabel("A INSPIRAÃ‡ÃƒO COMEÃ‡A AQUI!");
+	JLabel informacoes3 = new JLabel("A INSPIRAÇÃO COMEÇA AQUI!");
 	JLabel instrucoes = new JLabel("Selecione a figura a ser removida");
 	
 	/*Botoes*/
@@ -181,7 +181,7 @@ public class Interface extends JFrame {
 	jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Aperta X = FERCHA TELA
 	jFrame.setSize(1200,800); //Define o tamanho da tela
 	jFrame.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 20)); //Define o layout da tela
-	jFrame.setResizable(false); //Impede alteracao no tamanho da tela	
+	jFrame.setResizable(true); //Impede alteracao no tamanho da tela	
 	
 	JPanel panel = new JPanel(); //Panel para dados
 	JPanel panel2 = new JPanel(); //Panel para dados
